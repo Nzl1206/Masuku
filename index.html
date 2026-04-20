@@ -61,10 +61,15 @@
         font-weight: bold;
       }
 
-p {font-size: 18px;
-        opacity: 0.7;
+.footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
         text-align: center;
-        font-family: monospace;}
+        font-size: 14px;
+        opacity: 0.7;
+        font-family: monospace;
+      }
     
     </style>
   </head>
@@ -76,8 +81,8 @@ p {font-size: 18px;
       <div id="message"></div>
     </div>
     <br/>
-    
-<p> Coded by Ndzalama Lubisi</p>
+
+<p class="footer">Coded by Ndzalama Lubisi</p>
     <script>
       function checkName() {
         let name = document.getElementById("nameInput").value.trim();
